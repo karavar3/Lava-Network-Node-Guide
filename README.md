@@ -177,6 +177,14 @@ $current_lavad_binary query \
 ```
 
 
+- **Düğümünüzün eşitlemeyi bitirdiğini ve ağa yakalandığını doğrulayın**
+- 
+```
+$current_lavad_binary status | jq .SyncInfo.catching_up
+```
+#catching_up false olana kadar bekleyin!
+
+
 
 - **Validator oluşturma**
 
