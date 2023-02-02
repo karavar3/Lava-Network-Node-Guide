@@ -65,6 +65,8 @@ mkdir -p $lavad_home_folder/cosmovisor
 wget https://lava-binary-upgrades.s3.amazonaws.com/testnet/cosmovisor-upgrades/cosmovisor-upgrades.zip
 unzip cosmovisor-upgrades.zip
 cp -r cosmovisor-upgrades/* $lavad_home_folder/cosmovisor
+```
+```
 echo "# Setup Cosmovisor" >> ~/.profile
 echo "export DAEMON_NAME=lavad" >> ~/.profile
 echo "export CHAIN_ID=lava-testnet-1" >> ~/.profile
