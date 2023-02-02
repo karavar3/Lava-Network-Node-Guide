@@ -89,7 +89,7 @@ cp genesis_json/genesis.json $lava_config_folder/genesis.json
 ```
 cosmovisor version
 
-Note: Lütfen cosmovisor'ın bir hata atacağını unutmayın Sorun değil. Aşağıdaki hata atılacak, lstat /home/ubuntu/.lava/cosmovisor/current/upgrade-info.json böyle bir dosya veya dizini yok
+Note: Lütfen cosmovisor'ın bir hata atacağını unutmayın Sorun değil. Yandaki hata atılacak, lstat /home/ubuntu/.lava/cosmovisor/current/upgrade-info.json böyle bir dosya veya dizini yok
 ```
 
 - **systemd birim dosyasını oluşturun**
