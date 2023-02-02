@@ -178,7 +178,7 @@ $current_lavad_binary query \
 
 
 - **Düğümünüzün eşitlemeyi bitirdiğini ve ağa yakalandığını doğrulayın**
-- 
+
 ```
 $current_lavad_binary status | jq .SyncInfo.catching_up
 ```
